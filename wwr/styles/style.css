@@ -7,7 +7,7 @@
 } 
 .home-grid{
     display: grid;
-    grid-template-columns: 1f 1f 1f 1f 1f 1f 1f 1f 1f 1f;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 nav {
     display: flex;
