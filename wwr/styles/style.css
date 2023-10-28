@@ -190,6 +190,7 @@ footer .social img {
     grid-row: 2/3;
 }
 .card-img {
+    width: 100%;
     border: 10px solid black;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
@@ -212,6 +213,7 @@ footer .social img {
     }
     nav, footer {
         flex-direction: column;
+        
     }
     nav a {
         display: block;
