@@ -16,14 +16,65 @@
     font-size: 30px;
     color: #f7fff7;
 }
-#events-grid {
+.events-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr ;
-    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-columns:100px 1fr 1fr 1fr 1fr 100px;
+    grid-template-rows: 100px 1fr 1fr 1fr;
+}
+.thrill-card h1{
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: 40px;
+}
+.thrill-card h2 {
+    text-align: left;
+    font-family: "Croissant One", Arial, sans-serif;
+    color: #343434;
+}
+.thrill-card {
+    grid-column: 4/6;
+    grid-row: 2/3;
+    text-align: left;
+}
+.thrill-pic {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: 100px;
+}
+.family-card h2 {
+    text-align: left;
+    font-family: "Croissant One", Arial, sans-serif;
+    color: #343434;
 }
 .family-card h1 {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: 40px;
+}
+.family-card {
+    grid-column: 4/6;
+    grid-row: 3/4;
+}
+.family-pic {
     grid-column: 2/3;
-    grid-row: 3/4
+    grid-row: 3/4;
+    margin-top: 100px;
+}
+.extreme-card h1 {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: 40px;
+}
+.extreme-card h2 {
+    text-align: left;
+    font-family: "Croissant One", Arial, sans-serif;
+    color: #343434;
+}
+.extreme-card {
+    grid-column: 4/6;
+    grid-row: 4/5;
+}
+.extreme-pic {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    margin-top: 100px;
 }
 
 nav {
