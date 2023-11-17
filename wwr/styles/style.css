@@ -19,6 +19,11 @@
 #events-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+#events-grid t1 {
+    grid-column: 2/3;
+    grid-row: 3/4
 }
 
 nav {
@@ -217,9 +222,7 @@ footer .social img {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
-#events-grid h5, #events-grid h6, #events-grid h7 {
-    grid-column: 1/1;
-}
+
 
 
 @media screen and (max-width: 900px) {
