@@ -18,17 +18,18 @@
 }
 .events-grid {
     display: grid;
-    grid-template-columns:100px 1fr 1fr 1fr 1fr 100px;
-    grid-template-rows: 100px 1fr 1fr 1fr;
+    grid-template-columns:50px 1fr 1fr 1fr 1fr 50px;
+    grid-template-rows: 50px 1fr 1fr 1fr;
 }
 .thrill-card h1{
     font-family: "Montserrat", Arial, sans-serif;
-    font-size: 40px;
+    font-size: 30px;
 }
 .thrill-card h2 {
     text-align: left;
     font-family: "Croissant One", Arial, sans-serif;
     color: #343434;
+    font-size: 20px;
 }
 .thrill-card {
     grid-column: 4/6;
@@ -38,16 +39,19 @@
 .thrill-pic {
     grid-column: 2/3;
     grid-row: 2/3;
-    margin-top: 100px;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.family-card h1 {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: 30px;
 }
 .family-card h2 {
     text-align: left;
     font-family: "Croissant One", Arial, sans-serif;
     color: #343434;
-}
-.family-card h1 {
-    font-family: "Montserrat", Arial, sans-serif;
-    font-size: 40px;
+    font-size: 20px;
 }
 .family-card {
     grid-column: 4/6;
@@ -56,16 +60,17 @@
 .family-pic {
     grid-column: 2/3;
     grid-row: 3/4;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .extreme-card h1 {
     font-family: "Montserrat", Arial, sans-serif;
-    font-size: 40px;
+    font-size: 30px;
 }
 .extreme-card h2 {
     text-align: left;
     font-family: "Croissant One", Arial, sans-serif;
     color: #343434;
+    font-size: 20px;
 }
 .extreme-card {
     grid-column: 4/6;
@@ -74,7 +79,7 @@
 .extreme-pic {
     grid-column: 2/3;
     grid-row: 4/5;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 nav {
