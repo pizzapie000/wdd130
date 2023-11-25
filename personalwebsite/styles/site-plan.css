@@ -46,17 +46,30 @@ Fonts are separated by a | */
   grid-column: 1/2;
   grid-row: 2/3;
 }
-#links p {
+#link1 {
   grid-column: 3/4;
-  grid-row: 1/4;
+  grid-row: 1/2;
+  background-color: #B9314F;
+  line-height: 3em;
+  text-align: center;
+  font-size: 1.2em;
 }
-#links i {
+#link2 {
   grid-column: 3/4;
   grid-row: 2/3;
+  background-color: #B9314F;
+  line-height: 3em;
+  text-align: center;
+  font-size: 1.2em;
 }
-#links b {
+#link3 {
   grid-column: 3/4;
   grid-row: 3/4;
+  margin-top: 50%;
+  background-color: #B9314F;
+  line-height: 3em;
+  text-align: center;
+  font-size: 1.2em;
 }
 
 
