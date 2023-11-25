@@ -46,15 +46,15 @@ Fonts are separated by a | */
   grid-column: 1/2;
   grid-row: 2/3;
 }
-#links h1 {
+#links p {
   grid-column: 3/4;
-  grid-row: 1/2;
+  grid-row: 1/4;
 }
-#links h2 {
+#links i {
   grid-column: 3/4;
   grid-row: 2/3;
 }
-#links h3 {
+#links b {
   grid-column: 3/4;
   grid-row: 3/4;
 }
