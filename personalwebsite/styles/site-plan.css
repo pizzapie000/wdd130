@@ -28,6 +28,7 @@ Fonts are separated by a | */
 
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
+
 #professional_main_page {
   display:grid;
   grid-template-columns: 45% 10% 45%;
@@ -131,6 +132,73 @@ img.pizza {
 hr.top {
   grid-column:1/4;
   grid-row: 1;
+}
+#personal_main_page {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+#personal_main_page h1 {
+  grid-column:2/4;
+  grid-row:1/2;
+  text-align: left;
+  margin-top: 50px;
+  color: #3A4A41;
+  font-family: "Montserrat", Helvetica, sans-serif ;
+}
+#personal_main_page p.first {
+  grid-column: 2/4;
+  grid-row:1/2;
+  margin-top: 100px;
+  text-align: left;
+  color: #B9314F;
+  font-family: "Nunito", Helvetica, sans-serif;
+  font-size: 1em;
+}
+img.top_img {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  margin-top: 100px;
+}
+img.middle_img {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  margin-top: 100px;
+}
+#personal_main_page h2 {
+  grid-area: 2/2/3/4;
+  margin-top: 50px;
+  text-align: left;
+  color: #3A4A41;
+  font-family: "Montserrat", Helvetica, sans-serif ;
+}
+#personal_main_page p.second {
+  grid-column: 2/4;
+  grid-row:2/3;
+  margin-top: 100px;
+  text-align: left;
+  color: #B9314F;
+  font-family: "Nunito", Helvetica, sans-serif;
+  font-size: 1.3em;
+}
+#personal_main_page h3 {
+  grid-area: 3/2/4/4;
+  margin-top: 50px;
+  text-align: left;
+  color: #3A4A41;
+  font-family: "Montserrat", Helvetica, sans-serif ;
+}
+#personal_main_page p.third {
+  grid-area: 3/2/4/4;
+  margin-top: 100px;
+  text-align: left;
+  color: #B9314F;
+  font-family: "Nunito", Helvetica, sans-serif;
+  font-size: 1em;
+}
+img.bottom_img {
+  grid-area: 3/1/4/2;
+  margin-top: 100px;
 }
 #main_page h1 {
   grid-column:1/3;
