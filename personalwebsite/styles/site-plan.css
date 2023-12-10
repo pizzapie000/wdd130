@@ -139,7 +139,7 @@ hr.top {
   grid-template-rows: 1fr 1fr 1fr;
 }
 #personal_main_page nav {
-  grid-column:1/4 ;
+  grid-column:1/4;
 }
 #personal_main_page h1 {
   grid-column:2/4;
