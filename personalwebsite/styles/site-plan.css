@@ -135,8 +135,11 @@ hr.top {
 }
 #personal_main_page {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 300px 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+}
+#personal_main_page nav {
+  grid-column:1/4 ;
 }
 #personal_main_page h1 {
   grid-column:2/4;
