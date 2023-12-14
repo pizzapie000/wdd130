@@ -141,7 +141,7 @@ hr.top {
 #personal_main_page nav {
   grid-column:1/4;
 }
-#personal_main_page h1 {
+#Music {
   grid-column:2/4;
   grid-row:1/2;
   text-align: left;
@@ -168,7 +168,7 @@ img.middle_img {
   grid-row: 2/3;
   margin-top: 100px;
 }
-#personal_main_page h2 {
+#Cooking {
   grid-area: 2/2/3/4;
   margin-top: 50px;
   text-align: left;
@@ -184,7 +184,7 @@ img.middle_img {
   font-family: "Nunito", Helvetica, sans-serif;
   font-size: 1.3em;
 }
-#personal_main_page h3 {
+#Computers {
   grid-area: 3/2/4/4;
   margin-top: 50px;
   text-align: left;
