@@ -471,7 +471,7 @@ nav a:hover {
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 @media screen and (max-width: 900px) {
-  #home-grid, .main_page {
+  #home-grid, #main_page, #personal_main_page, #professional_main_page {
       display: block;
       height: auto;
   }
